@@ -1,0 +1,72 @@
+# generated: 2026-02-14T00:00:00
+# project: VueProof
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog → in-progress: Automatically when first story is created (via create-story)
+#   - in-progress → done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ==============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-02-14
+project: VueProof
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  epic-1: backlog
+  epic-1-retrospective: optional
+  epic-2: backlog
+  epic-2-retrospective: optional
+  epic-3: backlog
+  epic-3-retrospective: optional
+  epic-4: backlog
+  epic-4-retrospective: optional
+  epic-5: backlog
+  epic-5-retrospective: optional
+  epic-6: backlog
+  1-1-initialiser-le-projet-vueproof-avec-create-vue: backlog
+  1-2-construire-le-shell-applayout-avec-router: backlog
+  1-3-ajouter-le-menu-lat-ral-actif-et-liens-module: backlog
+  2-1-formulaire-simple-valid-avec-veevalidate-zod: backlog
+  2-2-formulaire-multi-tapes-avec-progression-et-retention: backlog
+  2-3-documenter-la-strat-gie-d-erreur-et-de-progression-des-formulaires: backlog
+  3-1-tableau-primevue-avec-pagination-tri-filtre: backlog
+  3-2-tableau-personnalis-from-scratch: backlog
+  3-3-comparer-visuellement-les-deux-approches: backlog
+  4-1-cr-er-useapi-avec-axios-loading-error-retry: backlog
+  4-2-module-rest-avec-retour-visuel-des-tats: backlog
+  4-3-module-temps-r-el-websocket-sse: backlog
+  5-1-store-pinia-partag-avec-persistence: backlog
+  5-2-interface-de-connexion-fake-et-guards: backlog
+  5-3-d-connexion-et-rafra-chissement-de-token: backlog
+  6-1-impl-menter-le-showcase-de-styling: backlog
+  6-2-configurer-vue-i18n-et-switch-de-langue: backlog
+  6-3-ajouter-pluralisation-et-formatage-local: backlog
+  epic-6-retrospective: optional
