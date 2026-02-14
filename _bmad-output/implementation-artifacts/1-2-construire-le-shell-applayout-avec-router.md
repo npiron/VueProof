@@ -20,7 +20,7 @@ As a développeur, I want implement `AppLayout`, `AppSidebar`, and `AppHeader` w
 - [x] Create `src/app/layout/AppLayout.vue` with sidebar and main content area
 - [x] Create `src/app/layout/AppSidebar.vue` with menu categories placeholder
 - [x] Create `src/app/layout/AppHeader.vue` (optional, minimal)
-- [x] Configure `src/app/router/index.ts` with lazy-loaded routes for each category (/forms/*, /data/*, etc.)
+- [x] Configure `src/app/router/index.ts` with lazy-loaded routes for each category (/forms/_, /data/_, etc.)
 - [x] Add route guards placeholders for auth routes
 - [x] Update `App.vue` to use AppLayout for the default route
 - [x] Verify router lazy loading works and no compilation errors

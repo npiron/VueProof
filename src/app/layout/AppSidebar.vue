@@ -161,7 +161,9 @@ function isActive(item: MenuItem): boolean {
   padding: 0.625rem 1.5rem;
   text-decoration: none;
   color: var(--p-surface-300, #b0b0c0);
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
   cursor: pointer;
 }
 
@@ -201,7 +203,9 @@ function isActive(item: MenuItem): boolean {
   text-decoration: none;
   color: var(--p-surface-400, #9090a0);
   font-size: 0.8125rem;
-  transition: background-color 0.2s, color 0.2s;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
 .app-sidebar__child:hover {

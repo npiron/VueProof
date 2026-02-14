@@ -19,7 +19,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'forms/simple',
         name: 'forms-simple',
-        component: PlaceholderView,
+        component: () => import('@/modules/forms/simple-form/views/SimpleFormView.vue'),
         meta: { title: 'Formulaire simple' },
       },
       {

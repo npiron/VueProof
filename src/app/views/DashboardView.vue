@@ -4,15 +4,27 @@ const modules = [
     category: 'Formulaires',
     icon: '📝',
     items: [
-      { label: 'Formulaire simple', to: '/forms/simple', desc: 'Validation avec VeeValidate + Zod' },
-      { label: 'Multi-étapes', to: '/forms/multi-step', desc: 'Formulaire à progression avec rétention' },
+      {
+        label: 'Formulaire simple',
+        to: '/forms/simple',
+        desc: 'Validation avec VeeValidate + Zod',
+      },
+      {
+        label: 'Multi-étapes',
+        to: '/forms/multi-step',
+        desc: 'Formulaire à progression avec rétention',
+      },
     ],
   },
   {
     category: 'Data Display',
     icon: '📊',
     items: [
-      { label: 'Table (librairie)', to: '/data/table-library', desc: 'PrimeVue DataTable avec pagination/tri/filtre' },
+      {
+        label: 'Table (librairie)',
+        to: '/data/table-library',
+        desc: 'PrimeVue DataTable avec pagination/tri/filtre',
+      },
       { label: 'Table (custom)', to: '/data/table-custom', desc: 'Table construite from scratch' },
     ],
   },
@@ -40,7 +52,13 @@ const modules = [
   {
     category: 'Styling',
     icon: '🎨',
-    items: [{ label: 'Showcase', to: '/styling/showcase', desc: 'Techniques CSS : scoped, BEM, variables' }],
+    items: [
+      {
+        label: 'Showcase',
+        to: '/styling/showcase',
+        desc: 'Techniques CSS : scoped, BEM, variables',
+      },
+    ],
   },
   {
     category: 'i18n',
